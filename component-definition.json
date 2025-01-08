@@ -153,6 +153,8 @@
                   "name": "Hero",
                   "model": "hero",
                   "heading": "New Hero",
+                  "headingd": "New Hero 2",
+                  "headingt": "New Hero 3",
                   "headingType": "h1"
                 }
               }
