@@ -170,6 +170,31 @@
         "multi": false
       },
       {
+        "component": "multiselect",
+        "valueType": "string",
+        "name": "classes",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Size",
+            "children": [
+              {
+                "name": "Small",
+                "value": "small"
+              },
+              {
+                "name": "Medium",
+                "value": "medium"
+              },
+              {
+                "name": "Large",
+                "value": "large"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "component": "text",
         "valueType": "string",
         "name": "imageAlt",
@@ -177,10 +202,65 @@
         "value": ""
       },
       {
-        "component": "richtext",
-        "name": "text",
+        "component": "text",
+        "valueType": "string",
+        "name": "heading",
+        "label": "Heading",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "headingd",
+        "label": "Heading 2",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "headingt",
+        "label": "Heading 3",
+        "value": ""
+      },
+      {
+        "component": "select",
+        "name": "headingType",
         "value": "",
-        "label": "Text",
+        "label": "Heading Type",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "h1",
+            "value": "h1"
+          }
+        ]
+      },
+      {
+        "component": "richtext",
+        "name": "hero_text",
+        "value": "",
+        "label": "Description",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "hero_linkTitle",
+        "label": "Button Title Attribute",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "hero_linkText",
+        "label": "Button Text",
+        "value": ""
+      },
+      {
+        "component": "aem-content",
+        "name": "hero_link",
+        "value": "",
+        "label": "Button Link",
         "valueType": "string"
       }
     ]
