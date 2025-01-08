@@ -204,21 +204,21 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "heading",
+        "name": "heading_u",
         "label": "Heading",
         "value": ""
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "headingd",
+        "name": "heading_d",
         "label": "Heading 2",
         "value": ""
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "headingt",
+        "name": "heading_t",
         "label": "Heading 3",
         "value": ""
       },
