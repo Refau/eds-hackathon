@@ -216,13 +216,6 @@
         "value": ""
       },
       {
-        "component": "text",
-        "valueType": "string",
-        "name": "heading_trois",
-        "label": "Heading",
-        "value": ""
-      },
-      {
         "component": "select",
         "name": "headingType",
         "value": "",
