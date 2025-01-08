@@ -223,6 +223,19 @@
         "value": ""
       },
       {
+        "component": "select",
+        "name": "headingType",
+        "value": "",
+        "label": "Heading Type",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "h1",
+            "value": "h1"
+          }
+        ]
+      },
+      {
         "component": "richtext",
         "name": "hero_text",
         "value": "",
