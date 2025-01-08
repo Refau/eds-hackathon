@@ -1,4 +1,4 @@
-import { readBlockConfig } from '../../scripts/aem.js';
+/*import { readBlockConfig } from '../../scripts/aem.js';
 
 function renderPlaceholder(config, block) {
   console.log(block);
@@ -77,3 +77,5 @@ export default async function decorate(block) {
 
   renderPlaceholder(config, block);
 }
+
+ */
