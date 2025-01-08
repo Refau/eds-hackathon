@@ -151,7 +151,9 @@
                 "resourceType": "core/franklin/components/block/v1/block",
                   "name": "Hero",
                   "model": "hero",
-                  "headingType": "h1"
+                  "heading_u": "New Hero 1",
+                  "heading_t": "New Hero 2",
+                  "heading_d": "New Hero 3"
               }
             }
           }
