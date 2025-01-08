@@ -149,11 +149,12 @@
             "xwalk": {
               "page": {
                 "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
                   "name": "Hero",
                   "model": "hero",
-                  "heading_u": "New Hero 1",
-                  "heading_t": "New Hero 2",
-                  "heading_d": "New Hero 3"
+                  "heading": "New Hero",
+                  "headingType": "h1"
+                }
               }
             }
           }

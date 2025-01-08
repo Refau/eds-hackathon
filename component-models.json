@@ -204,23 +204,22 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "heading_u",
+        "name": "heading",
         "label": "Heading",
         "value": ""
       },
       {
-        "component": "text",
+        "component": "select",
+        "name": "headingType",
+        "value": "",
+        "label": "Heading Type",
         "valueType": "string",
-        "name": "heading_d",
-        "label": "Heading 2",
-        "value": ""
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "heading_t",
-        "label": "Heading 3",
-        "value": ""
+        "options": [
+          {
+            "name": "h1",
+            "value": "h1"
+          }
+        ]
       },
       {
         "component": "richtext",
