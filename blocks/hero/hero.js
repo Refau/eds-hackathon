@@ -70,6 +70,7 @@ function createCards(config) {
 export default async function decorate(block) {
   const config = readBlockConfig(block);
   console.log(config);
+  console.log(block);
   config['details-button'] = !!(config['details-button'] || config['details-button'] === 'true');
   config['cart-button'] = !!(config['cart-button'] || config['cart-button'] === 'true');
 
