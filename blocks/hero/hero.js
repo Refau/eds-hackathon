@@ -1,3 +1,5 @@
+import { readBlockConfig } from '../../scripts/aem.js';
+
 function renderPlaceholder(config, block) {
   block.textContent = '';
   block.appendChild(document.createRange().createContextualFragment(`
