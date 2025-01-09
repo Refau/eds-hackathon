@@ -1,4 +1,4 @@
-import { showSlide } from '../blocks/carousel/carousel.js';
+
 import {
   decorateBlock,
   decorateBlocks,
@@ -44,7 +44,7 @@ function setState(block, state) {
   if (block.matches('.carousel')) {
     block.style.display = null;
     createMutation(block);
-    showSlide(block, state);
+
   }
 }
 
