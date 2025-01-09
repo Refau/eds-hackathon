@@ -44,7 +44,7 @@ export default async function decorate(block) {
 
   const elem = document.createRange().createContextualFragment(`
     <div class="teaser container">
-        <img src="/api/placeholder/1920/1080" alt="Background" class="teaser-bg">
+        <img src="" alt="Background" class="teaser-bg">
         <div class="container">
             <div class="columns">
                 <!-- Left Column -->
@@ -74,4 +74,3 @@ export default async function decorate(block) {
 
   //createCards(config)
 }
-
