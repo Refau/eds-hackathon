@@ -40,7 +40,7 @@ function createCards(config) {
 
 export default async function decorate(block) {
   const config = readBlockConfig(block);
-  console.log(config.heading);
+  console.log(config);
 
   const elem = document.createRange().createContextualFragment(`
     <div class="teaser container">
