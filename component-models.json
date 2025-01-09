@@ -206,7 +206,7 @@
         "valueType": "string",
         "name": "heading",
         "label": "Heading",
-        "value": ""
+        "value": "testheading"
       },
       {
         "component": "select",

@@ -41,8 +41,8 @@ function createCards(config) {
 export default async function decorate(block) {
   const config = readBlockConfig(block);
   console.log(config.heading);
-  block.textContent = '';
-  block.appendChild(document.createRange().createContextualFragment(`
+
+  const elem = document.createRange().createContextualFragment(`
     <div class="teaser container">
         <img src="/api/placeholder/1920/1080" alt="Background" class="teaser-bg">
         <div class="container">
@@ -68,7 +68,10 @@ export default async function decorate(block) {
                 </div>
             </div>
         </div>
-  `));
+  `);
+  block.textContent = '';
+  block.append(elem);
+
   //createCards(config)
 }
 
