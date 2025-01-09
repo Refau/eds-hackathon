@@ -4,7 +4,7 @@ import { readBlockConfig } from '../../scripts/aem.js';
 const cards = [
   {
     title: 'Feature One',
-    description: 'Transform your workflow with our innovative solutions that streamline processes and boost productivity.',
+    description: 'Transform your workflow with our innovative solutions that streamline processes.',
     href: '#'
   },
   {
@@ -18,7 +18,7 @@ const cards = [
     href: '#'
   }
 ];
-*/
+
 
 function createCards(config) {
   const cardsContainer = document.getElementById('cardsContainer');
@@ -36,10 +36,11 @@ function createCards(config) {
     cardsContainer.appendChild(cardElement);
   });
 }
+*/
 
 export default async function decorate(block) {
   const config = readBlockConfig(block);
-  console.log(config.hero_text);
+  console.log(config.heading);
   block.textContent = '';
   block.appendChild(document.createRange().createContextualFragment(`
     <div class="teaser container">
@@ -55,7 +56,7 @@ export default async function decorate(block) {
                 <div class="column">
                     <h2 class="content-title component">Transform Your Digital Experience</h2>
                     <p class="content-description component">
-                        ${config.hero_text}
+                        ${config.heading}
                     </p>
                     <a href="#" class="button">
                         Get Started
