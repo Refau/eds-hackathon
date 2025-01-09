@@ -16,7 +16,8 @@
       "cards",
       "columns",
       "fragment",
-      "quote"
+      "quote",
+      "tabs"
     ]
   },
   {
@@ -38,6 +39,20 @@
       "image",
       "button",
       "title",
+      "quote"
+    ]
+  },
+  {
+    "id": "tabs",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title",
+      "hero",
+      "cards",
+      "columns",
+      "fragment",
       "quote"
     ]
   }

@@ -175,6 +175,21 @@
               }
             }
           }
+        },
+        {
+          "title": "Tabs",
+          "id": "tabs",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/columns/v1/columns",
+                "template": {
+                  "tab1": "Test",
+                  "tab2": "test2"
+                }
+              }
+            }
+          }
         }
       ]
     }
