@@ -1,22 +1,24 @@
 import { readBlockConfig } from '../../scripts/aem.js';
 
+/*
 const cards = [
   {
-    title: "Feature One",
-    description: "Transform your workflow with our innovative solutions that streamline processes and boost productivity.",
-    href: "#"
+    title: 'Feature One',
+    description: 'Transform your workflow with our innovative solutions that streamline processes and boost productivity.',
+    href: '#'
   },
   {
-    title: "Feature Two",
-    description: "Unlock new possibilities with advanced analytics and real-time insights for better decision making.",
-    href: "#"
+    title: 'Feature Two',
+    description: 'Unlock new possibilities with advanced analytics and real-time insights for better decision making.',
+    href: '#'
   },
   {
-    title: "Feature Three",
-    description: "Experience seamless integration with your existing tools and enhance team collaboration.",
-    href: "#"
+    title: 'Feature Three',
+    description: 'Experience seamless integration with your existing tools and enhance team collaboration.',
+    href: '#'
   }
 ];
+*/
 
 function createCards(config) {
   const cardsContainer = document.getElementById('cardsContainer');
@@ -66,6 +68,6 @@ export default async function decorate(block) {
             </div>
         </div>
   `));
-  createCards(config)
+  //createCards(config)
 }
 
